@@ -11,6 +11,17 @@ This project demonstrates how containerised applications are deployed as pods in
 
 ![](./images/eks%20cluster%20created.png)
 
+![](./images/3%20nodes.png)
+
+![](./images/created%20pod.png)
+
+![](./images/service%20created.png)
+
+![](./images/port-forward%20pod.png)
+
+![](./images/site%20running.png)
+
+
 
 ##  STEP 1: Creating A Pod For The Nginx Application
 
@@ -42,7 +53,7 @@ spec:
 
 
 
-![](./images/created%20pod.png)
+![](./images/nginx-pod%20created.png)
 
 
 ## ACCESSING THE APP FROM THE BROWSER
@@ -85,11 +96,11 @@ output:
 ```
 service/nginx-service created
 ```
-![](./images/service%20created.png)
+![](./images/nginx-service%20created.png)
 
-check the public IP address of the worker node the pod is running on
+![](./images/port-forward%20nginx-pod.png)
 
-![](./Images/welcome%20to%20nginx.PNG)
+![](./images/nginx%20service%20running.png)
 
 
 # CREATE A REPLICA SET
