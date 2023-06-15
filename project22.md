@@ -13,9 +13,11 @@ This project demonstrates how containerised applications are deployed as pods in
 
 ![](./images/3%20nodes.png)
 
+![](./images/service%20created.png)
+
 ![](./images/created%20pod.png)
 
-![](./images/service%20created.png)
+
 
 ![](./images/port-forward%20pod.png)
 
