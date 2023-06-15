@@ -40,8 +40,9 @@ spec:
 
 `kubectl describe pod nginx-pod`
 
-![](./Images/create%20nginx-pod.PNG)
 
+
+![](./images/created%20pod.png)
 
 
 ## ACCESSING THE APP FROM THE BROWSER
@@ -84,7 +85,7 @@ output:
 ```
 service/nginx-service created
 ```
-![](./Images/nginx-service.PNG)
+![](./images/service%20created.png)
 
 check the public IP address of the worker node the pod is running on
 
