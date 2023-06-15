@@ -179,8 +179,9 @@ Get the newly created service :
 kubectl get service nginx-service
 ```
 
-![](./Images/lb%20tags.PNG)
-![](./Images/dns%20lb.PNG)
+![](./images/loadbalancer%20service%20type.png)
+![](./images/loadbalancer%20created.png)
+![](./images/loadbalancer%20tags.png)
 
 
 A clusterIP key is updated in the manifest and assigned an IP address. Even though you have specified a Loadbalancer service type, internally it still requires a clusterIP to route the external traffic through.
@@ -189,7 +190,9 @@ In the ports section, nodePort is still used. This is because Kubernetes still n
 
 copy and paste the load balancer dns in your browser
 
-![](./Images/dns%20working.PNG)
+![](./images/nginx-service%20yaml.png)
+
+![](./images/loadbalancer%20running.png)
 
 
 ## USING DEPLOYMENT CONTROLLERS
@@ -234,7 +237,7 @@ create the deployment using:
 kubectl apply -f deployment.yaml
 ```
 
-![](./Images/create%20deployment.PNG)
+![](./images/deployments.png)
 
 
 Exec into one of the Pod’s container to run Linux commands
@@ -243,7 +246,7 @@ Exec into one of the Pod’s container to run Linux commands
 kubectl exec -it nginx-deployment-56466d4948-78j9c bash
 ```
 
-![](./Images/exec%20deployment.PNG)
+![](./images/exec%20into%20pod.png)
 
 
 
@@ -293,8 +296,8 @@ for skills acquisition
 </html>
 ```
 
-![](./Images/install%20vim.PNG)
+![](./images/update%20exec.png)
 
-![](./Images/darey.io%20page.PNG)
+![](./images/loadbalancer%20running.png)
 
 
