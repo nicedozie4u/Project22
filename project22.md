@@ -139,7 +139,13 @@ spec:
 
 `kubectl apply -f rs.yaml`
 
-![](./Images/rs.PNG)
+![](./images/rs%20running.png)
+
+![](./images/delete%20rs%20pod.png)
+
+![](./images/describe%20rs.png)
+
+![](./images/scale%20rs.png)
 
 
 ## USING AWS LOAD BALANCER TO ACCESS YOUR SERVICE IN KUBERNETES.
