@@ -4,7 +4,7 @@
 
 This project demonstrates how containerised applications are deployed as pods in Kubernetes and how to access the application from the browser.
 
-## **[Link to the project code implementation](https://github.com/nicedozie4u/K8s_Project.git)**
+
 
 ![](./images/create%20Dockerfile.png)
 ![](./images/push%20tooling%20image.png)
